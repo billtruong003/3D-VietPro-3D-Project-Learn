@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Lesson/Scenes/Lesson1.1.unity
     guid: 2b1b4aee3e4e3c84faba0d4e41e1ca19
+  - enabled: 1
+    path: Assets/Lesson/Scenes/Canon.unity
+    guid: 2dba7f83138d4144295fea62689df92b
+  - enabled: 1
+    path: Assets/Lesson/Scenes/OOP.unity
+    guid: f9162a934e63bed4db23538adf747fc7
   m_configObjects: {}

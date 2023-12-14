@@ -3,6 +3,7 @@ namespace StringUtils
 {
     public class FunUtils : MonoBehaviour
     {
+
         public static string RandomName()
         {
             string[] firstNames = {

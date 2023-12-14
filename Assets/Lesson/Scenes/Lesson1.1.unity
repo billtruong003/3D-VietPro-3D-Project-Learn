@@ -986,6 +986,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1043486810}
   - component: {fileID: 1043486811}
+  - component: {fileID: 1043486812}
   m_Layer: 0
   m_Name: SpawnManager
   m_TagString: Untagged
@@ -1015,7 +1016,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1043486809}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b5fe863d06030b446a31c482b9d952f8, type: 3}
   m_Name: 
@@ -1034,6 +1035,33 @@ MonoBehaviour:
   willMove: 0
   dummyName: "T\xE8o"
   spawnPos: {x: 0, y: 0, z: 8}
+  containerDummy: []
+--- !u!114 &1043486812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043486809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b4aa5c631d0b3346b0e1875c90d3327, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dummy: {fileID: 8247388982084575115, guid: 6b937d2b5ce562648ab7d82a36a3fbfc, type: 3}
+  dummyContainer: {fileID: 1900223406}
+  pillarPoints:
+  - {fileID: 685552863}
+  - {fileID: 2093615725}
+  - {fileID: 869778731}
+  - {fileID: 2085172805}
+  - {fileID: 1846223296}
+  - {fileID: 470280624}
+  - {fileID: 630022534}
+  - {fileID: 1072132072}
+  willMove: 0
+  dummyName: 
+  spawnPos: {x: 0, y: 0, z: 0}
   containerDummy: []
 --- !u!1 &1072132071
 GameObject:

@@ -46,7 +46,8 @@ namespace Lesson1
         {
             RandomSpawnPos();
             GameObject dummyClone = Instantiate(dummy, spawnPos, Quaternion.identity, dummyContainer);
-            dummyClone.name = FunUtils.RandomName();
+            dummyName = FunUtils.RandomName();
+            dummyClone.name = dummyName;
             containerDummy.Add(dummyClone);
             PlayerCube_Cor pCube = dummyClone.GetComponent<PlayerCube_Cor>();
             if (willMove)

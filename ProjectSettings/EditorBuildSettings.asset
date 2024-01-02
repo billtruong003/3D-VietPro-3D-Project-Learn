@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Lesson/Scenes/OOP.unity
     guid: f9162a934e63bed4db23538adf747fc7
+  - enabled: 1
+    path: Assets/Lesson/Scenes/Car.unity
+    guid: 930031398613ecf46aa26326cfd433c1
+  - enabled: 1
+    path: Assets/Lesson/Scenes/RayCast.unity
+    guid: fe1bc64f647fd314d8ba30d7bb30eb48
   m_configObjects: {}
